@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contactos {
+    width: 20%;
+    background-color: white;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.header {
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.mjsymenu {
+    width: 3rem;
+    height: 2rem;
+}
+
+.boton {
+    display: flex;
+    background-color: #ffffff;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-boton {
+    background-color: #A491D2;
+    width: 10em;
+    justify-content: center;
+    padding: 7px;
+}
+
+.usuario {
+    border: 1px solid gray;
+    background-color: white;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 0 1rem;
+}
+
+.thumbail {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.principal {
+    background-color: white;
+    background-position: center;
+    background-size: 250px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    height: 100%;
+    background-image: url(../img/hand.png);
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto {
+    padding-bottom: 10%;
+    text-align: center;
+
+}
+
+.menu {
+    width: 20%;
+    background-color: black;
+    color: #ffffff;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+}
+
+li {
+    padding: 0 1rem;
+}
